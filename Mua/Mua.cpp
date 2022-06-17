@@ -82,6 +82,7 @@ int main(){
 	int n = 100, time = 40, sl = 1;
 	rain a[n];
 	resizeConsole(1000,600);
+	//doi bai hat ban muon vao day
 	PlaySound(TEXT("nhinvaomua.wav"), NULL, SND_ASYNC);
 
 	gotoxy(11, 23);textcolor(13);printf("Send to my love <3");
@@ -98,7 +99,7 @@ int main(){
 			a[i].fall();
 		}
 	}
-	//loi bai hat
+	//Thay loi ban muon viet vao day
 	intro();
 
 	gotoxy(11, 23);textcolor(13);printf("Send to my love <3");
@@ -110,6 +111,7 @@ int main(){
 	print(32, 16, 6000, "Du co don dau long van muon yeu dam sau");
 	Sleep(1000);
 	sl = 1;
+	//Thay loi ban muon viet vao day
 	while(sl < 180){
 		if(sl >= 50) goto tt;
 		gotoxy(35, 6);textcolor(12);printf("Minh chia tay nhau khi chua bat dau");
@@ -130,7 +132,7 @@ int main(){
 			printf(" ");
 			a[i].fall();
 		}
-	}
+	}//Thay loi ban muon viet vao day
 	print(32, 9, 6000, "Du co don dau, long van muon yeu em dam sau...");
 	Sleep(15000);
 	return 0;
